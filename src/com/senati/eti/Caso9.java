@@ -35,6 +35,8 @@ public class Caso9 {
 		System.out.println("Promedio........: " + df.format(promedio));
 		System.out.println("Asistencia......: " + df.format(pa * 100) + "%");
 		System.out.println("Estado..........: " + estado);
+		System.out.println("");
+		System.out.println("Que tenga un buen dia :-)");
 
 				
 		

@@ -12,10 +12,10 @@ public class Caso12 {
 		System.out.print("Empleado.................: ");
 		String nombre = sc.nextLine();
 		
-		System.out.print("Nivel [1-4] .....: ");
+		System.out.print("Nivel [1-4]..............: ");
 		int nivel = sc.nextInt();
 		
-		System.out.print("Sueldp.....: ");
+		System.out.print("Sueldo...................: ");
 		float sueldo = sc.nextFloat();
 		
 		float inc = 0;
@@ -39,7 +39,6 @@ public class Caso12 {
 		
 		float incre1=(sueldo * inc)/100;
 		float n_sueldo=(float)(sueldo + incre1);
-		
 		
 		System.out.println("\n=========== Resultados ==========");
 		System.out.println(" Empleado.........: " + nombre);
